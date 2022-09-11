@@ -18,6 +18,6 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'adopt'
+          distribution: 'redhat'
       - name: Build with Gradle
         run: ./gradlew build
